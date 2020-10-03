@@ -1,7 +1,7 @@
 {
   "name": "walletshell",
   "productName": "WalletShell",
-  "description": "TurtleCoin GUI Wallet",
+  "description": "redstone GUI Wallet",
   "version": "v0.3.11",
   "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
   "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
@@ -37,8 +37,8 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
+    "appId": "red-stone.me",
+    "copyright": "Copyright (c) redstone 2020, 2018 Rixombea, Macroshock, TurtleCoin Developers",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -70,12 +70,12 @@
       ],
       "maintainer": "rixombea (@labaylabay)",
       "category": "Office",
-      "vendor": "TurtleCoin",
-      "synopsis": "TurtleCoin GUI Wallet"
+      "vendor": "RedStone",
+      "synopsis": "RedStone GUI Wallet"
     },
     "win": {
       "target": "nsis",
-      "publisherName": "TurtleCoin"
+      "publisherName": "redstone"
     },
     "nsis": {
       "artifactName": "${productName}-v${version}-${os}-${arch}-setup.${ext}",
