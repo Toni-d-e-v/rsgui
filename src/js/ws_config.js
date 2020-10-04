@@ -2,7 +2,7 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'rswallet';
-config.appDescription = 'RedstONE Wallet';
+config.appDescription = 'Redstone Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'RED-STONE.ME';
 config.appGitRepo = 'RED-STONE.ME';
@@ -14,7 +14,7 @@ config.daemonDefaultRpcPort = 44401;
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'gemservice';
 
 // version on the bundled service (turtle-service)
 config.walletServiceBinaryVersion = "v0.13.0";
