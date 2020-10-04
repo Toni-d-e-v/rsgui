@@ -1,14 +1,14 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
-config.appDescription = 'TurtleCoin Wallet';
+config.appName = 'rswallet';
+config.appDescription = 'RedstONE Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
-config.appId = 'lol.turtlecoin.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appId = 'RED-STONE.ME';
+config.appGitRepo = 'RED-STONE.ME';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 11898;
+config.daemonDefaultRpcPort = 44401;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
@@ -28,7 +28,7 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 8070;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'RED-STONE.ME';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = 'turtlenode.co';
@@ -53,11 +53,11 @@ config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
 
 // your currency name
-config.assetName = 'TurtleCoin';
+config.assetName = 'Redstine';
 // your currency ticker
-config.assetTicker = 'TRTL';
+config.assetTicker = 'rs';
 // your currency address prefix, for address validation
-config.addressPrefix = 'TRTL';
+config.addressPrefix = 'rs';
 // standard wallet address length, for address validation
 config.addressLength = 99;
 // integrated wallet address length, for address validation. Added length is length of payment ID encoded in base58.
